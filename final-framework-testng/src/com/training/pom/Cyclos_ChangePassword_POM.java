@@ -7,11 +7,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class ChangePassword {
+public class Cyclos_ChangePassword_POM {
 	
 	WebDriver driver;
 	
-	public ChangePassword(WebDriver driver) {
+	public Cyclos_ChangePassword_POM(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}

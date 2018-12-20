@@ -1,37 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Cyclos Test Suite" duration-ms="38055" started-at="2018-12-19T12:30:49Z" finished-at="2018-12-19T12:31:27Z">
+  <suite name="Cyclos Test Suite" duration-ms="70220" started-at="2018-12-20T11:04:13Z" finished-at="2018-12-20T11:05:23Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="38055" started-at="2018-12-19T12:30:49Z" finished-at="2018-12-19T12:31:27Z">
+    <test name="Sample test" duration-ms="70220" started-at="2018-12-20T11:04:13Z" finished-at="2018-12-20T11:05:23Z">
       <class name="com.training.sanity.tests.Cyclos_TC06">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@cb5822]" name="setUpBeforeClass" is-config="true" duration-ms="7" started-at="2018-12-19T18:00:49Z" finished-at="2018-12-19T18:00:49Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@1d057a39]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2018-12-20T16:34:13Z" finished-at="2018-12-20T16:34:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@4b9e13df]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2018-12-19T18:00:49Z" finished-at="2018-12-19T18:00:49Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@26be92ad]" name="setUpBeforeClass" is-config="true" duration-ms="2" started-at="2018-12-20T16:34:13Z" finished-at="2018-12-20T16:34:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@2b98378d]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2018-12-19T18:00:49Z" finished-at="2018-12-19T18:00:49Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@4c70fda8]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2018-12-20T16:34:13Z" finished-at="2018-12-20T16:34:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@cb5822]" name="setUp" is-config="true" duration-ms="6006" started-at="2018-12-19T18:00:49Z" finished-at="2018-12-19T18:00:55Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Cyclos_TC09@224edc67]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2018-12-20T16:34:13Z" finished-at="2018-12-20T16:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Cyclos_TC26@14acaea5]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2018-12-20T16:34:13Z" finished-at="2018-12-20T16:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@1d057a39]" name="setUp" is-config="true" duration-ms="8469" started-at="2018-12-20T16:34:13Z" finished-at="2018-12-20T16:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@cb5822]" name="validLoginTest" duration-ms="1987" started-at="2018-12-19T18:00:55Z" finished-at="2018-12-19T18:00:57Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@1d057a39]" name="validLoginTest" duration-ms="2373" started-at="2018-12-20T16:34:22Z" finished-at="2018-12-20T16:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="validHomeTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@cb5822]" name="validHomeTest" duration-ms="1071" started-at="2018-12-19T18:00:57Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC06.validLoginTest" finished-at="2018-12-19T18:00:58Z">
+        <test-method status="PASS" signature="validHomeTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@1d057a39]" name="validHomeTest" duration-ms="1150" started-at="2018-12-20T16:34:24Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC06.validLoginTest" finished-at="2018-12-20T16:34:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validHomeTest -->
-        <test-method status="PASS" signature="changePasswordTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@cb5822]" name="changePasswordTest" duration-ms="2597" started-at="2018-12-19T18:00:58Z" data-provider="dp" depends-on-methods="com.training.sanity.tests.Cyclos_TC06.validHomeTest" finished-at="2018-12-19T18:01:01Z">
+        <test-method status="PASS" signature="changePasswordTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@1d057a39]" name="changePasswordTest" duration-ms="2321" started-at="2018-12-20T16:34:25Z" data-provider="dp" depends-on-methods="com.training.sanity.tests.Cyclos_TC06.validHomeTest" finished-at="2018-12-20T16:34:27Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordTest -->
-        <test-method status="PASS" signature="changePasswordTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@cb5822]" name="changePasswordTest" duration-ms="2558" started-at="2018-12-19T18:01:01Z" data-provider="dp" depends-on-methods="com.training.sanity.tests.Cyclos_TC06.validHomeTest" finished-at="2018-12-19T18:01:03Z">
+        <test-method status="PASS" signature="changePasswordTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@1d057a39]" name="changePasswordTest" duration-ms="2200" started-at="2018-12-20T16:34:27Z" data-provider="dp" depends-on-methods="com.training.sanity.tests.Cyclos_TC06.validHomeTest" finished-at="2018-12-20T16:34:30Z">
           <params>
             <param index="0">
               <value>
@@ -63,47 +71,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@cb5822]" name="tearDown" is-config="true" duration-ms="1893" started-at="2018-12-19T18:01:03Z" finished-at="2018-12-19T18:01:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Cyclos_TC06@1d057a39]" name="tearDown" is-config="true" duration-ms="1894" started-at="2018-12-20T16:34:30Z" finished-at="2018-12-20T16:34:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.training.sanity.tests.Cyclos_TC06 -->
-      <class name="com.training.sanity.tests.Cyclos_TC07">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@4b9e13df]" name="setUp" is-config="true" duration-ms="5233" started-at="2018-12-19T18:01:05Z" finished-at="2018-12-19T18:01:10Z">
+      <class name="com.training.sanity.tests.Cyclos_TC26">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Cyclos_TC26@14acaea5]" name="setUp" is-config="true" duration-ms="6791" started-at="2018-12-20T16:35:08Z" finished-at="2018-12-20T16:35:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@4b9e13df]" name="validLoginTest" duration-ms="1796" started-at="2018-12-19T18:01:10Z" finished-at="2018-12-19T18:01:12Z">
+        <test-method status="PASS" signature="loginPageTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC26@14acaea5]" name="loginPageTest" duration-ms="2866" started-at="2018-12-20T16:35:15Z" finished-at="2018-12-20T16:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="verifyManageLoans()[pri:0, instance:com.training.sanity.tests.Cyclos_TC26@14acaea5]" name="verifyManageLoans" duration-ms="2013" started-at="2018-12-20T16:35:18Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC26.loginPageTest" finished-at="2018-12-20T16:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageLoans -->
+      </class> <!-- com.training.sanity.tests.Cyclos_TC26 -->
+      <class name="com.training.sanity.tests.Cyclos_TC09">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Cyclos_TC09@224edc67]" name="setUp" is-config="true" duration-ms="6480" started-at="2018-12-20T16:34:57Z" finished-at="2018-12-20T16:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC09@224edc67]" name="loginPageTest" duration-ms="2409" started-at="2018-12-20T16:35:04Z" finished-at="2018-12-20T16:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="profilePageTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC09@224edc67]" name="profilePageTest" duration-ms="1966" started-at="2018-12-20T16:35:06Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC09.loginPageTest" finished-at="2018-12-20T16:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profilePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Cyclos_TC09@224edc67]" name="tearDown" is-config="true" duration-ms="1896" started-at="2018-12-20T16:35:20Z" finished-at="2018-12-20T16:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Cyclos_TC26@14acaea5]" name="tearDown" is-config="true" duration-ms="1831" started-at="2018-12-20T16:35:22Z" finished-at="2018-12-20T16:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.Cyclos_TC09 -->
+      <class name="com.training.sanity.tests.Cyclos_TC07">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@26be92ad]" name="setUp" is-config="true" duration-ms="6244" started-at="2018-12-20T16:34:32Z" finished-at="2018-12-20T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@26be92ad]" name="validLoginTest" duration-ms="2107" started-at="2018-12-20T16:34:38Z" finished-at="2018-12-20T16:34:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="validHomeTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@4b9e13df]" name="validHomeTest" duration-ms="1131" started-at="2018-12-19T18:01:12Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC07.validLoginTest" finished-at="2018-12-19T18:01:13Z">
+        <test-method status="PASS" signature="validHomeTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@26be92ad]" name="validHomeTest" duration-ms="1397" started-at="2018-12-20T16:34:40Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC07.validLoginTest" finished-at="2018-12-20T16:34:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validHomeTest -->
-        <test-method status="PASS" signature="changePasswordTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@4b9e13df]" name="changePasswordTest" duration-ms="1482" started-at="2018-12-19T18:01:13Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC07.validHomeTest" finished-at="2018-12-19T18:01:15Z">
+        <test-method status="PASS" signature="changePasswordTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@26be92ad]" name="changePasswordTest" duration-ms="1655" started-at="2018-12-20T16:34:41Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC07.validHomeTest" finished-at="2018-12-20T16:34:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@4b9e13df]" name="tearDown" is-config="true" duration-ms="1936" started-at="2018-12-19T18:01:15Z" finished-at="2018-12-19T18:01:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Cyclos_TC07@26be92ad]" name="tearDown" is-config="true" duration-ms="1852" started-at="2018-12-20T16:34:43Z" finished-at="2018-12-20T16:34:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.training.sanity.tests.Cyclos_TC07 -->
       <class name="com.training.sanity.tests.Cyclos_TC08">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@2b98378d]" name="setUp" is-config="true" duration-ms="5429" started-at="2018-12-19T18:01:17Z" finished-at="2018-12-19T18:01:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@4c70fda8]" name="setUp" is-config="true" duration-ms="7044" started-at="2018-12-20T16:34:45Z" finished-at="2018-12-20T16:34:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@2b98378d]" name="validLoginTest" duration-ms="2024" started-at="2018-12-19T18:01:22Z" finished-at="2018-12-19T18:01:24Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@4c70fda8]" name="validLoginTest" duration-ms="2274" started-at="2018-12-20T16:34:52Z" finished-at="2018-12-20T16:34:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="validHomeTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@2b98378d]" name="validHomeTest" duration-ms="1039" started-at="2018-12-19T18:01:24Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC08.validLoginTest" finished-at="2018-12-19T18:01:25Z">
+        <test-method status="PASS" signature="validHomeTest()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@4c70fda8]" name="validHomeTest" duration-ms="1047" started-at="2018-12-20T16:34:54Z" depends-on-methods="com.training.sanity.tests.Cyclos_TC08.validLoginTest" finished-at="2018-12-20T16:34:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validHomeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@2b98378d]" name="tearDown" is-config="true" duration-ms="1812" started-at="2018-12-19T18:01:25Z" finished-at="2018-12-19T18:01:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Cyclos_TC08@4c70fda8]" name="tearDown" is-config="true" duration-ms="1866" started-at="2018-12-20T16:34:55Z" finished-at="2018-12-20T16:34:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

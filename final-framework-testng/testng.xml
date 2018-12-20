@@ -7,6 +7,9 @@
          <class name = "com.training.sanity.tests.Cyclos_TC06" />
          <class name = "com.training.sanity.tests.Cyclos_TC07" />
          <class name = "com.training.sanity.tests.Cyclos_TC08" />
+         <class name = "com.training.sanity.tests.Cyclos_TC09" />
+         <class name = "com.training.sanity.tests.Cyclos_TC26" />
+         
       </classes>
    </test>
 </suite>	

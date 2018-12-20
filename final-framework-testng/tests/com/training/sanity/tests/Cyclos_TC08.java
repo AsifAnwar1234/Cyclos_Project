@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.training.generics.ScreenShot;
-import com.training.pom.ChangePassword;
+import com.training.pom.Cyclos_ChangePassword_POM;
 import com.training.pom.HomeCyclos;
 import com.training.pom.LoginCyclos;
 import com.training.utility.DriverFactory;
@@ -23,7 +23,7 @@ public class Cyclos_TC08 {
 	private String baseUrl;
 	private LoginCyclos cyclosLoginPOM;
 	private HomeCyclos cyclosHomePOM;
-	private ChangePassword changePassword;
+	private Cyclos_ChangePassword_POM changePassword;
 	private static Properties properties;
 	private ScreenShot screenShot;
 
@@ -39,7 +39,7 @@ public class Cyclos_TC08 {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		cyclosLoginPOM = new LoginCyclos(driver);
 		cyclosHomePOM = new HomeCyclos(driver);
-		changePassword = new ChangePassword(driver);
+		changePassword = new Cyclos_ChangePassword_POM(driver);
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver);
 		driver.get(baseUrl);
