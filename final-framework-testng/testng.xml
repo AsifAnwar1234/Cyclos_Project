@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "Sample test Suite">
+<suite name = "Cyclos Test Suite">
    <test name = "Sample test">
       <classes>
-         <class name = "com.training.sanity.tests.LoginTests" />
+         <class name = "com.training.sanity.tests.Cyclos_TC06" />
+         <class name = "com.training.sanity.tests.Cyclos_TC07" />
+         <class name = "com.training.sanity.tests.Cyclos_TC08" />
       </classes>
    </test>
 </suite>	

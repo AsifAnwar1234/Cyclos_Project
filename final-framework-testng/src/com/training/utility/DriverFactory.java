@@ -15,6 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  */
 public class DriverFactory {
 	private static WebDriver driver; 
+	static String waitTime;
 	
 	public static WebDriver getDriver(String driverName){
 
@@ -33,6 +34,7 @@ public class DriverFactory {
 			// TODO 
 		}
 		
+			
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		return driver;

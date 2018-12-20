@@ -1,5 +1,7 @@
 package com.trianing.waits;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,6 +22,10 @@ public class WaitTypes {
 	
 	public WaitTypes(WebDriver driver){
 		this.driver = driver;
+	}
+	
+	public void implicitWait() {
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 	
